@@ -1,0 +1,106 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #00c6ff, #007acc);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Form container */
+  .form-container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 450px;
+    border-radius: 15px;
+    padding: 40px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  /* Heading style */
+  h2 {
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  /* Form fields */
+  input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  input:focus {
+    border-color: #00c6ff;
+    outline: none;
+  }
+  
+  /* Submit button */
+  button {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00c6ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #007acc;
+  }
+  
+  /* Toggle between Login and Signup */
+  .toggle-text {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .toggle-text span {
+    color: #00c6ff;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  /* Hide form (for switching between login/signup) */
+  .hidden {
+    display: none;
+  }
+  
+  /* Responsive design for mobile devices */
+  @media (max-width: 600px) {
+    .form-container {
+      padding: 30px;
+      border-radius: 10px;
+    }
+  
+    input, button {
+      font-size: 14px;
+      padding: 12px;
+    }
+  
+    h2 {
+      font-size: 22px;
+    }
+  }
+  
