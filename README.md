@@ -2,7 +2,7 @@
 
 This project implements a responsive and modern **Login/Signup** page with basic **email and password validations** using **HTML**, **CSS**, and **JavaScript**. The UI dynamically switches between login and signup forms, with smooth transitions and professional design.
 
-## Live Demo : -
+## Live Demo : - https://sinchanaks130.github.io/login-signup-page/
 
 ## Features:
 - **Responsive design** for mobile, tablet, and desktop screens.
